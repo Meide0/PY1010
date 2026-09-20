@@ -21,7 +21,6 @@ ForbukEl = 0.2
 StrømPris=2.0
 ÅrsforbrukEl=ForbukEl*Kilometer*StrømPris
 
-
 #Bomavgift kr/km
 
 Bom_Bensin=0.3
@@ -36,7 +35,6 @@ TotalEl=Forsikring_el+ Årsavgift+ÅrsforbrukEl+TotalBomEl
 TotalBensin=Forsikringbensin + Årsavgift + ÅrsforbrukBensin + TotalBomBensin
 
 Differanse= TotalBensin-TotalEl
-
 
 print("Total årskostnader for en Bensinbil er:",TotalBensin,"Kr")
 
